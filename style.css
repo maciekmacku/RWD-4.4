@@ -389,8 +389,6 @@ footer {
 .test {
     color: aqua;
 }
-
-
 @media (max-width: 767px){
    [class*="col-"] {
     width: 100%;
@@ -399,14 +397,13 @@ footer {
 }
     .logo {
     float: none;
-     
 }
 header {
   background-color: #313234;
   height: 370px;
   background-color: rgba(0.0.0 0.5);
        text-align: center;
-      
+  
 }
 .links {
     padding: 2px 2px;
