@@ -20,15 +20,11 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 10px auto;
-    
 }  
 header {
   background-color: #313234;
-  height: 50px;
-  background-color: rgba(0.0.0 0.5);
-      
+  height: 60px;
 }
-
 .logo {
     float: left;
 }
@@ -40,8 +36,7 @@ header > .container > nav img {
 }
 header > .container > nav ul {
   float: right;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
   list-style-type: none;
 }
 header > .container > nav ul > li {
@@ -131,7 +126,7 @@ header > .container > nav ul > li > a:hover {
 .text {
     text-transform: uppercase;
 }
-.ikona {
+.icon {
     font-size: 50px;
     border-radius:20px;
     width: 100px;
@@ -140,11 +135,11 @@ header > .container > nav ul > li > a:hover {
     padding: 15px 15px;
     background: rgb(49,51,50);
 }
-.ikona:hover {
+.icon:hover {
     background: rgb(0,199,232);
     border-color: rgb(0,199,232);
 }
-.ikona:hover + .text > h2 {
+.icon:hover + .text > h2 {
   color: rgba(0,199,232,1);
 }
 .fa {
@@ -266,8 +261,7 @@ header > .container > nav ul > li > a:hover {
 .coffee {
     width: 100%;
     height: 350px;
-    
-     border-radius: 5px;
+    border-radius: 5px;
 }
 .awesome {
     background: darkgray;
@@ -395,55 +389,33 @@ footer {
     padding: 12px;
    float:left;
 }
-    .logo {
+.logo {
     float: none;
 }
 header {
-  background-color: #313234;
   height: 370px;
-  background-color: rgba(0.0.0 0.5);
-       text-align: center;
-  
-}
-.links {
-    padding: 2px 2px;
-    margin: 0 auto;
+  text-align: center;
 }
 header > .container > nav img {
   padding: 10px;
 }
 header > .container > nav ul {
   float: none;
-  margin: 0 auto;
   padding: 0;
-  list-style-type: none;
 }
 header > .container > nav ul > li {
   display:block;
 }
 .slogan{
-    width: 50%;
-    height: 200px;
-    max-height:150px;
-    right: 0;
-    float: right;
-    position:absolute;
-    margin: 100px 0;
-    background: rgba(47, 53, 66,0.4);
+   height: 120px;
 }
 .slogan_text1{
-    text-transform: uppercase;
-    color:white;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 15px;
     padding: 5px 50px 0px 5px;
 }
 .slogan_text2{
-    text-transform: uppercase;
-    font-size: 20px;
-    color: white;
+    font-size: 15px;
     padding: 0px 50px 5px 5px;
-    font-weight: bold;
 }
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -467,25 +439,11 @@ header > .container > nav ul > li {
 }
 .descr_img1   {
     display: block;
-   
 }
- .about,   .get, .soc {
+ .about, .get, .soc {
         text-align: center;
-    }
 }
-
-@media (min-width: 768px) {
-    
-    .col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-m-3 {width: 25%;}
-    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}
-    .col-m-6 {width: 50%;}
-    .col-m-7 {width: 58.33%;}
-    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}
-    .col-m-10 {width: 83.33%;}
-    .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
+.get {
+        line-height: 0px;
+    }
 }
